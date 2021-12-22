@@ -1,37 +1,32 @@
-## Welcome to GitHub Pages
+# NMapsMap
 
-You can use the [editor on GitHub](https://github.com/jaemyeong/NMapsMap-SPM/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+[NMapsMap](https://github.com/navermaps/NMapsMap) Swift Package 지원 버전입니다.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Requirements
 
-### Markdown
+- Xcode 13.2.1+
+- Swift 5.5+
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Installation
 
-```markdown
-Syntax highlighted code block
+### Swift Package Manager
 
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```swift
+.package(url: "https://github.com/jaemyeong/NMapsMap-SPM.git", .upToNextMajor(from: "3.14.0"))
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## Usage
 
-### Jekyll Themes
+```swift
+import NMapsMap
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jaemyeong/NMapsMap-SPM/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+let mapView = NMFMapView()
+```
 
-### Support or Contact
+## References
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+- [NMapsMap](https://github.com/navermaps/NMapsMap)
+
+## Author
+
+[Jaemyeong Jin](https://github.com/jaemyeong) ([jaemyeong@me.com](mailto:jaemyeong@me.com))
