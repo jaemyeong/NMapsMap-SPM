@@ -1,18 +1,18 @@
 # NMapsMap
 
-[NMapsMap](https://github.com/navermaps/NMapsMap) Swift Package 지원 버전입니다.
+[NMapsMap](https://github.com/navermaps/NMapsMap) 비공식 스위프트 패키지 저장소입니다.
 
 ## Requirements
 
-- Xcode 13.2.1+
-- Swift 5.5+
+- Xcode 13.2.1
+- Swift 5.5
 
 ## Installation
 
 ### Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/jaemyeong/NMapsMap-SPM.git", .upToNextMajor(from: "3.14.0"))
+.package(url: "https://github.com/jaemyeong/NMapsMap-SPM.git", .upToNextMajor(from: "3.14.1"))
 ```
 
 ## Usage
