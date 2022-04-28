@@ -2,7 +2,7 @@
 
 [NMapsMap](https://github.com/navermaps/NMapsMap) 비공식 스위프트 패키지입니다.
 
-NMapsMap 3.14.2 버전을 기반으로 제작되었습니다.
+NMapsMap 3.15.0 버전을 기반으로 제작되었습니다.
 
 
 ## Requirements
@@ -16,7 +16,7 @@ NMapsMap 3.14.2 버전을 기반으로 제작되었습니다.
 ### Swift Package Manager
 
 ```swift
-.package(url: "https://github.com/jaemyeong/NMapsMap-SPM.git", .upToNextMajor(from: "3.14.2"))
+.package(url: "https://github.com/jaemyeong/NMapsMap-SPM.git", .upToNextMajor(from: "3.15.0"))
 ```
 
 ## Usage
